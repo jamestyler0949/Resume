@@ -1,0 +1,29 @@
+Moon Data Variable Explanations:
+All Data, where applicable, was of the initial measurements before treatment, except for the response variable (BDOM/t28).
+This is because we wanted to use this as a predictor mechanism (and in application, we can assess treatment, but not response optical properties).
+
+TRIAL:
+Season during which the sample was taken. 1 = Spring, 2 = Summer.
+
+TREATMENT:
+The method with which the water sample was treated during the experiment.
+1 = CL, 2 = CD, 3=NL, 4 = ND (Control/Nutrient, Light/Dark)
+
+FI: Fluorescence Index (Optical)
+BIX/HIX: Other Indices (Optical)
+ABS254: Absorbance at 254 nano-meters (Optical)
+
+Burn: The Burn level of the soil where the water sample was taken. (1 is burned, 0 is not burned)
+
+Precipitation: Average Monthly Precipitation over the previous year.
+Drainage: Site-Specific Data, drainage measurement.
+Forest: Forestation Percentage of the land.
+Elevation: Elevation of the land at the specific site.
+Development: Percentage of land that was considered "developed".
+Impervious: Percentage of land that was considered impervious to fire (stone/concrete, etc).
+Herb Land: Percentage of land that was considered herbacious, but not forested.
+Slope: Angle of slope of the land (on average) that drained into the water source.
+
+t0: Initial measurement of carbon.
+t28: Measurement of carbon post treatment. 
+bdom: Measure of change between t0 and t28 (percentage).
