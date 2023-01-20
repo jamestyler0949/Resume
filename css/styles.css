@@ -1,0 +1,12 @@
+body {
+  color: #06283D;
+  background-color: #DFF6FF;
+}
+
+hr {
+  background-color: #1363DF;
+  border-color: #1363DF;
+  border-style: none;
+  height: 5px;
+  width: 97%;
+}
